@@ -25,7 +25,7 @@ public class Note {
     private String title;
 
 
-    //@Generated(hash = 1272611929)
+
     public Note() {
     }
 
@@ -33,7 +33,7 @@ public class Note {
         this.id = id;
     }
 
-    //@Generated(hash = 1686394253)
+
     @Keep
     public Note(Long id, String text, String comment, java.util.Date date, String title) {
         this.id = id;

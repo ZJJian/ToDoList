@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onResume(){
         super.onResume();
-        // put your code here...
+
         setUpViews();
         updateNotes();
 
@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
             Note note = notesAdapter.getNote(position);
 
             getAlertDialog(note,"Edit or Delete this message").show();
-            //getAlertDialog().show();
+
 
         }
     };
